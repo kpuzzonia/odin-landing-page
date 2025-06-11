@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 150px;
+    padding: 15px 175px;
 }
 
 .header h1 {
@@ -55,8 +55,9 @@ body {
 
 .hero {
     display: flex;
-    padding: 80px 150px;
-    gap: 20px;
+    justify-content: space-between;
+    padding: 80px 175px;
+    gap: 80px;
 }
 
 .hero h2 {
@@ -74,14 +75,14 @@ body {
     margin: 20px 0;
 }
 
-.image-placeholder {
-    height: 200px;
-    width: 420px;
+.hero-image {
     background-color: grey;
+    width: 400px;
+    flex: 0 0 auto;
 }
 
 .pics {
-    padding: 20px 200px;
+    padding: 40px 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,7 +91,7 @@ body {
 
 .pic-container {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     flex-wrap: no-wrap;
     align-content: center;
     padding: 30px;
@@ -105,6 +106,7 @@ body {
 figcaption {
     text-align: center;
     padding: 10px;
+    color: #1F2937;
 }
 
 .square-image img {
@@ -119,14 +121,14 @@ figcaption {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 80px 210px;
+    padding: 80px 300px;
 }
 
 .CTA {
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 50px 100px;
-    margin: 50px 150px;
+    margin: 50px 175px;
     border-radius: 6px;
     display: flex;
     justify-content: space-between;
