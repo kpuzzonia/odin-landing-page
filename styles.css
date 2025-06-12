@@ -124,6 +124,12 @@ figcaption {
     padding: 80px 300px;
 }
 
+.author {
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+}
+
 .CTA {
     color: #F9FAF8;
     background-color: #3882F6;
